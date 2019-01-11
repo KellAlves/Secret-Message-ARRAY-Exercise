@@ -16,5 +16,5 @@ secretMessage.unshift('Programming'); //adds word at the beginning
 
 const removeFrom = secretMessage.splice(6, 5, 'know, '); //removed the words "get, right, the, first, time," from position 6 FORWARD with lenght 5 and replaced by 'know, '
 
-console.log(secretMessage.join());
+console.log(secretMessage.join(' '));
 
